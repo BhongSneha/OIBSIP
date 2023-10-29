@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+        <style>
+
+            p{
+                font-family: Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .title-text{
+                font-size:25px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            .degree-text{
+                font-size: 15px;
+                margin-bottom: 4px;
+                display: inline-block;
+            }
+
+            .fahrenheit-text{
+                font-size: 15px;
+                margin-bottom: 4px;
+                margin-top: 10px;
+                display: inline-block;
+            }
+
+        
+        </style>
+    </head>
+    <body>
+
+
+        <p class="title-text">Degree To Fahrenheit Converter</p>
+
+        <div>
+            <p class="degree-text">Degree Celsius</p>
+            <input class="search-bar" type="text" placeholder="C">
+        </div>
+
+
+        <div>
+            <p class="fahrenheit-text">Fahrenheit</p>
+        <input class="search-bar" type="text" placeholder="F">
+        </div>
+
+        <py-script src="demo.py">
+
+        </py-script>
+
+        
+
+    </body>
+</html>
